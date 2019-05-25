@@ -11,7 +11,7 @@ type ResponseApi struct {
 // ResponseData : this struct is for the data we want to have in API responses
 type ResponseData []interface{}
 
-// ResponseMessage : this struct is for the data we want to have in API responses
+// ResponseMessages : this struct is for the data we want to have in API responses
 type ResponseMessages []MessageItem
 
 // MessageItem : Single message item should be in this format

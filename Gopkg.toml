@@ -29,3 +29,14 @@
 [[constraint]]
   name = "github.com/labstack/echo"
   version = "^4.1.5"
+[[constraint]]
+  name = "gopkg.in/go-playground/validator.v9"
+  version = "9.29.0"
+
+[[constraint]]
+  name = "github.com/dgrijalva/jwt-go"
+  version = "3.2.0"
+
+[[constraint]]
+  branch = "master"
+  name = "golang.org/x/crypto"

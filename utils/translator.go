@@ -5,6 +5,7 @@ func GetMessageByKey(key string) MessageItem {
 	messages := map[string]MessageItem{
 		NotFoundErrorMessageKey: MessageItem{Fa: "یافت نشد!", En: "Ooops! Not found..."},
 		HealthyMessageKey:       MessageItem{Fa: "همه چیز ردیفه", En: "Ok!"},
+		InputErrorMessageKey:       MessageItem{Fa: "لطفا ورودی ها را چک کنید", En: "Check inputs!"},
 	}
 	suitableMessage := messages[key]
 	if (suitableMessage == MessageItem{}) {
